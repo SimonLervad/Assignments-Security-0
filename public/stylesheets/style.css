@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: 1024px;
+}
+header {
+    text-align: right;
+    width: 100%;
+    border: 0px solid red;
+}
+header nav ul {
+    list-style: none;
+    margin-right: 10px;
+    text-align: right;
+}
+header nav ul li {
+    border: 1px solid gray;
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+main {
+    width:100%;
+}
+table, td {
+    border: 1px solid blue;
+}
+td {
+    padding: 3px;
+}
+.col_l {
+    font-weight: 600;
+    text-align: right;
+}
+.col_num {
+    text-align: right;
+}
+#continents, #countries, #cities, #weather {
+    float: left;
+    padding: 3px;
+    width: 25%;
+}
+#weather {
+    border: 1px solid orange;
+}
+#continents {
+    border: 1px solid red;
+}
+#countries {
+    border: 1px solid green;
+}
+#cities {
+    border: 1px solid blue;
+}
+

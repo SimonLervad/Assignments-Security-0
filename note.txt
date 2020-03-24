@@ -1,0 +1,15 @@
+Jeg har her prøvet at udskifte en af værdier givet som Number, med en string. 
+Den slår fejl og skriver det ikke ind i databasen:
+
+	sile@PCL2477 MINGW64 ~/Documents/Assignments-Security-0 (master)
+	$ node test
+	Asynchronous? If I come first, yes!
+	alternative:
+	ValidationError: zipcode: Cast to Number failed for value "this is not a number" at path "zipcode"
+	undefined
+	Connected to server by mongoose
+	primary:
+	MongoError: Topology is closed, please connect
+	undefined
+
+--------------------------------------
